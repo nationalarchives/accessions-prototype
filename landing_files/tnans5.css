@@ -36,6 +36,11 @@ p {
     text-decoration: none;
 }
 
+.breadcrumbs{
+    color: #2A5DB0;
+    text-decoration: none;
+}
+
 p.mainbodytext {
     background-color: white;
     font-family: "Open Sans", arial, sans-serif;
