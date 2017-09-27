@@ -1,0 +1,70 @@
+td {
+    background-color: #eee;
+}
+
+#breadcrumb, .breadcrumbs{
+    font-size: .9em;
+    font-family: "Open Sans",arial,sans-serif;
+    margin: 1em 0;
+    background-color: #eee;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Bitter", "Open Sans", arial, serif;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+h2 {
+    font-family: "Bitter", "Open Sans", arial, serif;
+    font-weight: 400;
+    line-height: 1.6em;
+    padding: 10px 10px 0 0;
+    background-color: white;
+    /*background-image: url(../landing_files/dot-grey.png);*/
+    color: black;
+    letter-spacing: -.025em;
+    font-size: 30px;
+    padding: 4px 10px;
+}
+
+h2 {
+
+}
+
+p.mainbodytext {
+    font-family: "Open Sans", arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+    padding: 20px;
+    background-color: white;
+}
+
+ul.mainbodytext {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+li {
+    list-style-image: url(../landing_files/list-link-bullet.png);
+    margin-bottom: 1em;
+    margin: 0 0 .75em;
+    line-height: 1.6;
+    font-family: "Open Sans", arial, sans-serif;
+    font-size: 16px;
+}
+
+a:active, a:link, a:visited {
+    color: #2A5DB0;
+    text-decoration: none;
+}
