@@ -6,6 +6,7 @@ h1 {
     font-family: "Bitter", "Open Sans", arial, serif;
     font-weight: 400;
     line-height: 1.6em;
+    font-size: 36px;
 }
 
 h2 {
@@ -78,4 +79,10 @@ a:active, a:link, a:visited {
 
 a:hover {
     text-decoration: underline;
+}
+
+.header {
+    background-image: url("../landing_files/img.jpg");
+    color: white;
+    padding-left: 4px;
 }
