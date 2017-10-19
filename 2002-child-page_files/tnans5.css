@@ -1,0 +1,93 @@
+td {
+    background-color: #eee;
+}
+
+h1 {
+    font-family: "Bitter", "Open Sans", arial, serif;
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 36px;
+}
+
+h2 {
+    color: black;
+    background-color: white;
+    font-family: "Bitter", "Open Sans", arial, serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: -.025em;
+    line-height: 1.6em;
+    margin: 1em 0 0 0;
+    padding: 4px 10px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#breadcrumb, .breadcrumbs{
+    background-color: #eee;
+    font-size: .9em;
+    font-family: "Open Sans",arial,sans-serif;
+    margin: 1em 0;
+    text-decoration: none;
+}
+
+.breadcrumbs{
+    color: #2A5DB0;
+    text-decoration: none;
+}
+
+ul.mainbodytext {
+    background-color: white;
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li {
+    font-family: "Open Sans", arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    list-style-image: url(../landing_files/list-link-bullet.png);
+    margin-bottom: 1em;
+    margin: 0 0 .75em;
+}
+
+a:active, a:link, a:visited {
+    color: #2A5DB0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    background-image: url("../landing_files/img.jpg");
+    color: white;
+    padding-left: 4px;
+}
+
+h2.parchment {
+    background-color: white;
+    margin: 0 0 0 0;
+}
+
+td.tabbody {
+    background-color: white;
+}
+
+ul.tabbedtable {
+    background-color: white;
+}
