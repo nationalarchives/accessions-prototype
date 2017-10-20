@@ -1,3 +1,7 @@
+table {
+    background-color: #eee;
+}
+
 td {
     background-color: #eee;
 }
@@ -14,11 +18,11 @@ h2 {
     background-color: white;
     font-family: "Bitter", "Open Sans", arial, serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 1.6em;
     letter-spacing: -.025em;
     line-height: 1.6em;
     margin: 1em 0 0 0;
-    padding: 4px 10px;
+    padding: 20px 0 0 20px;
 }
 
 p {
@@ -82,7 +86,8 @@ a:hover {
 }
 
 .header {
-    background-image: url("../landing_files/img.jpg");
+    background-image: url("../landing_files/img2.jpg");
     color: white;
+    height: 288px;
     padding-left: 4px;
 }
