@@ -14,10 +14,10 @@ table {
 }
 
 h1 {
-    color: #fff;
+    background-color: #fff;
+    background-image: url('../1994-child-page_files/dot-grey.png');
     font-family: "Bitter", "Open Sans", arial, serif;
     font-weight: 400;
-    height: 288px;
     line-height: 1.6em;
     font-size: 36px;
     padding-left: 20px;
@@ -65,6 +65,7 @@ p.bodytext {
 .tab {
     background-color: #fff;
     display: inline-block;
+    margin-top: 1em;
     padding: .5em 0;
     text-align: center;
     width: 49%;
@@ -101,26 +102,33 @@ li {
 }
 
 a:active, a:link, a:visited {
-    color: #2A5DB0;
     text-decoration: none;
+}
+
+li.tab:last-of-type {
+    background-color: #405480;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.header {
-    color: white;
-    height: 288px;
-    padding-left: 4px;
-}
+/*tbody tr:nth-child(3) td:nth-child(2) div:first-of-type table:first-of-type tbody:first-of-type tr:first-of-type td:first-of-type ul:first-of-type li:first-of-type > a {*/
+    /*color: #FFF!important;*/
+/*}*/
 
 tbody tr:nth-child(4n) > td:last-of-type {
     background-color: #fff;
 }
 
-tbody tr:nth-child(2) td:nth-child(2) table tbody tr:first-child > td {
-    background-image: url("../1994-child-page_files/img2.jpg");
+tbody tr:nth-child(2) td:nth-child(2) > a {
+    float: left;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+tbody tr:nth-child(2) > td:nth-child(2) {
+    background-color: #fff;
 }
 
 body tbody:first-child tbody:first-child tr:nth-child(3) > td:first-child {
@@ -137,4 +145,19 @@ body tbody:first-child tbody:first-child tr:last-child td:first-child table:firs
 
 td.tabbody {
     background-color: #fff;
+}
+
+.ghost-button {
+    background-color: #008484;
+    /*line-height: 1em;*/
+    color: #FFF!important;
+    padding: 1em;
+    margin-left: 2.3em;
+    margin-top: 1em;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    width: auto;
 }
