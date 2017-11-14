@@ -2,6 +2,10 @@
   table {
     background-color: $greyBackground;
 
+    .khakibackground{
+      display: none;
+    }
+
     #breadcrumb {
       background-color: $greyBackground;
       font-size: .9em;
@@ -31,8 +35,13 @@
     }
 
     p.bodytext {
-      background-color: #fff;
+      background-color: $whiteColor;
       padding-left: 20px;
+    }
+
+    p.mainbodytext {
+      background-color: $whiteColor;
+      padding: 20px;
     }
 
     h2 {
@@ -45,6 +54,7 @@
       line-height: 1.6em;
       margin: 0 0 0 0;
       padding-left: 1em;
+      padding-top: 0.5em;
     }
 
     ul.tabbedtable {
@@ -52,15 +62,28 @@
     }
 
     li {
+      //FOR LANDING PAGE
+      display: inline;
+      //END
+      margin: 1em;
       font-family: $listFont;
       font-size: 16px;
       line-height: 1.6;
       list-style-image: url(../1994-child-page_files/list-link-bullet.png);
       margin-bottom: 1em;
-      margin: 0 0 .75em;
+      //margin: 0 0 .75em;
+      //FOR LANDING PAGE
+      margin: 1em;
+      //END
     }
 
     tbody {
+       //FOR LANDING PAGE
+       tr:nth-child(2) {
+        display: none;
+      }
+      //END
+
       tr:nth-child(2) {
         td:nth-child(2) {
           background-color: $whiteColor;
@@ -96,7 +119,18 @@
       tr:nth-child(4) {
         td:last-of-type {
           background-color: $whiteColor;
+          //FOR LANDING PAGE
+          background-color: $greyBackground;
+          //END
         }
+        //FOR LANDING PAGE
+        td:nth-child(2){
+          h2:last-of-type{
+            padding-top: 0.5em;
+            margin-top: 1em;
+          }
+        }
+        //END
       }
       tbody {
         tr:nth-child(3) {

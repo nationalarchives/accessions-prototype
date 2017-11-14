@@ -1,5 +1,7 @@
 #content table {
   background-color: #eee; }
+  #content table .khakibackground {
+    display: none; }
   #content table #breadcrumb {
     background-color: #eee;
     font-size: .9em;
@@ -24,6 +26,9 @@
   #content table p.bodytext {
     background-color: #fff;
     padding-left: 20px; }
+  #content table p.mainbodytext {
+    background-color: #fff;
+    padding: 20px; }
   #content table h2 {
     color: black;
     background-color: #fff;
@@ -33,16 +38,21 @@
     letter-spacing: -.025em;
     line-height: 1.6em;
     margin: 0 0 0 0;
-    padding-left: 1em; }
+    padding-left: 1em;
+    padding-top: 0.5em; }
   #content table ul.tabbedtable {
     background-color: #fff; }
   #content table li {
+    display: inline;
+    margin: 1em;
     font-family: "Open Sans", arial, sans-serif;
     font-size: 16px;
     line-height: 1.6;
     list-style-image: url(../1994-child-page_files/list-link-bullet.png);
     margin-bottom: 1em;
-    margin: 0 0 .75em; }
+    margin: 1em; }
+  #content table tbody tr:nth-child(2) {
+    display: none; }
   #content table tbody tr:nth-child(2) td:nth-child(2) {
     background-color: #fff; }
     #content table tbody tr:nth-child(2) td:nth-child(2) a {
@@ -52,7 +62,11 @@
   #content table tbody tr:nth-child(3) td:nth-child(2) div:first-of-type table:first-of-type tbody:first-of-type tr:first-of-type td:first-of-type ul:first-of-type li:first-of-type a {
     color: #FFF !important; }
   #content table tbody tr:nth-child(4) td:last-of-type {
-    background-color: #fff; }
+    background-color: #fff;
+    background-color: #eee; }
+  #content table tbody tr:nth-child(4) td:nth-child(2) h2:last-of-type {
+    padding-top: 0.5em;
+    margin-top: 1em; }
   #content table tbody tbody tr:nth-child(3) td:first-child {
     background-color: #fff; }
   #content table tbody tbody tr:last-child td:first-child table:first-child tbody:first-child tr:first-child td {
