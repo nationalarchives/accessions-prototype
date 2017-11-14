@@ -1,4 +1,3 @@
-/*
 $(document).ready(function(){
 	
 	$('h1').insertBefore('h2:eq(0)');
@@ -9,4 +8,4 @@ $(document).ready(function(){
 		}
 	}
 	h1Mod();
-});*/
+});
