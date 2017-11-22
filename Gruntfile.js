@@ -9,6 +9,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
+                    'css/compiled/tna-accessions-landing.css': 'css/sass/tna-accessions-landing.scss',
                     'css/compiled/tna-accessions.css': 'css/sass/tna-accessions.scss'
                 }
             }
@@ -19,7 +20,8 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'css/tna-accessions.css': 'css/compiled/tna-accessions.css'
+                    'css/compiled/tna-accessions-landing.min.css': 'css/compiled/tna-accessions-landing.css',
+                    'css/compiled/tna-accessions.min.css': 'css/compiled/tna-accessions.css'
                 }
             }
         },

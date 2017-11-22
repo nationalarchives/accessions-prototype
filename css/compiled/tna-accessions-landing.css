@@ -1,3 +1,134 @@
+#content table {
+  background-color: #eee; }
+  #content table .khakibackground {
+    display: none; }
+  #content table #breadcrumb {
+    background-color: #eee;
+    font-size: .9em;
+    font-family: "Open Sans", arial, sans-serif;
+    margin: 1em 0;
+    text-decoration: none;
+    text-decoration: none; }
+  #content table h1 {
+    background: url("../../img/dot-grey.png") #fff;
+    font-family: "Bitter", "Open Sans", arial, serif;
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 36px;
+    padding-left: .5em; }
+  #content table p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px; }
+  #content table p.bodytext {
+    background-color: #fff;
+    padding-left: 20px; }
+  #content table p.mainbodytext {
+    background-color: #fff;
+    padding: 20px; }
+  #content table h2 {
+    color: black;
+    background-color: #fff;
+    font-family: "Bitter", "Open Sans", arial, serif;
+    font-weight: 400;
+    font-size: 1.6em;
+    letter-spacing: -.025em;
+    line-height: 1.6em;
+    margin: 0 0 0 0;
+    padding-left: 1em;
+    padding-top: 0.5em; }
+  #content table ul.tabbedtable {
+    background-color: #fff; }
+  #content table li {
+    display: inline;
+    margin: 1em;
+    font-family: "Open Sans", arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    list-style-image: url(../1994-child-page_files/list-link-bullet.png);
+    margin-bottom: 1em;
+    margin: 1em; }
+  #content table tbody tr:nth-child(2) {
+    display: none; }
+  #content table tbody tr:nth-child(2) td:nth-child(2) {
+    background-color: #fff; }
+    #content table tbody tr:nth-child(2) td:nth-child(2) a {
+      float: left;
+      padding: 1em;
+      margin-top: 1em; }
+  #content table tbody tr:nth-child(3) td:nth-child(2) div:first-of-type table:first-of-type tbody:first-of-type tr:first-of-type td:first-of-type ul:first-of-type li:first-of-type a {
+    color: #FFF !important; }
+  #content table tbody tr:nth-child(4) td:last-of-type {
+    background-color: #fff;
+    background-color: #eee; }
+  #content table tbody tr:nth-child(4) td:nth-child(2) h2:last-of-type {
+    padding-top: 0.5em;
+    margin-top: 1em; }
+  #content table tbody tbody tr:nth-child(3) td:first-child {
+    background-color: #fff; }
+  #content table tbody tbody tr:last-child td:first-child table:first-child tbody:first-child tr:first-child td {
+    background-color: #fff; }
+  #content table #a-z-menu li {
+    background-color: #008484;
+    border-radius: 50%;
+    color: #FEFEFE !important;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 0 4px 4px 0;
+    width: 40px;
+    height: auto;
+    line-height: 40px;
+    text-align: center; }
+  #content table #a-z-menu li:hover {
+    background-color: #FCE45C;
+    color: black;
+    cursor: pointer; }
+  #content table #a-z-menu li a:hover {
+    color: black;
+    text-decoration: none; }
+  #content table #a-z-menu a {
+    color: #fff; }
+  #content table a:active, #content table a:link, #content table a:visited {
+    text-decoration: none; }
+  #content table a:hover {
+    text-decoration: underline; }
+#content .ghost-button {
+  background-color: #008484;
+  color: #fff !important;
+  padding: 1em;
+  margin-left: 2.3em;
+  margin-top: 1em;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+  width: auto; }
+
+.tabline ul {
+  background-color: #fff; }
+  .tabline ul .tab {
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 1em;
+    padding: .5em 0;
+    text-align: center;
+    width: 46%; }
+
+ul .mainbodytext {
+  background-color: #fff;
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
 #breadcrumb {
   background-color: #eee;
   font-size: .9em;
