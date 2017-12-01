@@ -10,6 +10,31 @@ body{
 #content {
   table {
 
+    .tabline{
+      img{
+        display: none;
+      }
+    }
+
+    #mydiv > a{
+      display: none;
+    }
+
+    tbody {
+      tr:first-of-type{
+        td:nth-child(2){
+          //display: none;
+          img {
+            display: none;
+          }
+        }
+        td:nth-child(3) {
+          display: none;
+        }
+      }
+    }
+  }
+
     p {
       display: block;
       -webkit-margin-before: 0em;
@@ -148,7 +173,6 @@ body{
     a:hover {
       text-decoration: underline;
     }
-  }
 
 ul {
   .mainbodytext {
@@ -163,4 +187,48 @@ ul {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+}
+
+//targeting 'Choose a different year' button
+#content{
+  table{
+    tbody{
+      tr:nth-child(2){
+        td:nth-child(2){
+          > a{
+              background-color: $teal;
+              color: $whiteColor !important;
+              padding: 1em;
+              margin-top: 1em;
+              -o-transition: .5s;
+              -ms-transition: .5s;
+              -moz-transition: .5s;
+              -webkit-transition: .5s;
+              transition: .5s;
+              width: auto;
+          }
+        }
+      }
+    }
+  }
+
+  .topofpage{
+    display: none;
+  }
+
+  p.bodytext{
+    a{
+      border: 1px solid #eee;
+      margin-right: .5em;
+
+      &:hover {
+        background-color: #555;
+        color: #fff;
+      }
+    }
+  }
+}
+
+#A,#B,#C,#D,#E,#f,#g,#h,#i,#j,#h,#k,#l,#m,#n,#o,#p,#q,#r,#s,#t,#u,#v,#w,#x,#y,#z{
+  padding-top: 1em;
 }
