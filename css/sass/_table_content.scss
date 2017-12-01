@@ -1,13 +1,19 @@
+body{
+  background-color: $greyBackground;
+
+}
+
 #content {
   table {
-    background-color: $greyBackground;
+    //background-color: $greyBackground;
+    border: 1px solid $greyBackground;
 
     .khakibackground{
       display: none;
     }
 
     #breadcrumb {
-      background-color: $greyBackground;
+      //background-color: $greyBackground;
       font-size: .9em;
       font-family: "Open Sans", arial, sans-serif;
       margin: 1em 0;

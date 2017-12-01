@@ -1,6 +1,14 @@
+html{
+  background: $darkGrey;
+}
+body{
+  border-left: 1px solid $veryDarkGrey;
+  border-right: 1px solid $veryDarkGrey;
+  padding: 0;
+}
+
 #content {
   table {
-    background-color: $greyBackground;
 
     p {
       display: block;
