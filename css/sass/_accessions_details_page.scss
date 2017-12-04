@@ -1,0 +1,30 @@
+/*$display: display;
+//$display: none;
+$none = none;
+
+@function function-hide($args){
+    @return $display: $none;
+}*/
+
+h3{
+    padding-left: 1em;
+    padding-top: .5em;
+}
+
+/*#content {
+    > table {
+        > tbody:first-of-type {
+            tr:nth-child(3) {
+                display: none;
+            }
+            tr:nth-child(2) {
+               td:nth-child(2) {
+                   display: none;
+               }
+            }
+        }
+    }
+}*/
+
+
+

@@ -39,7 +39,7 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: .9em;
         color: #000000;
-        background-color: #FFFFFF;
+        background-color: black;
         margin: 0;
         padding: 10px 20px 20px 20px;
     }
